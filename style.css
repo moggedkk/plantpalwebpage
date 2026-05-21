@@ -1,0 +1,77 @@
+:root {
+    --deep-green: #2D5A27;
+    --dark-green: #638e44;
+    --mid-green: #a9ba74;
+    --light-green: #e4ebbc;
+    --background: #fffbe4;
+    --white: #ffffff;
+    --beige: #f8eccb;
+    --dark-beige: #a0937d;
+    --brown: #8d6742;
+    --dark-brown: #5a4a3a;
+    --black: #333;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--black);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: var(--deep-green) !important;
+}
+
+.navbar-brand, .nav-link {
+    color: var(--white) !important;
+}
+
+.hero-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, var(--deep-green) 0%, var(--dark-green) 100%);
+    color: var(--white);
+    border-bottom: 5px solid var(--mid-green);
+}
+
+.feature-card {
+    background-color: var(--white);
+    border: 1px solid var(--light-green);
+    border-radius: 15px;
+    padding: 30px;
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--dark-green);
+}
+
+.btn-primary {
+    background-color: var(--deep-green);
+    border-color: var(--deep-green);
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-green);
+    border-color: var(--dark-green);
+}
+
+.text-green {
+    color: var(--deep-green);
+}
+
+.tech-stack {
+    background-color: var(--beige);
+    padding: 60px 0;
+}
+
+footer {
+    background-color: var(--dark-brown);
+    color: var(--light-green);
+    padding: 40px 0;
+}
+
+.logo-img {
+    max-height: 50px;
+}
