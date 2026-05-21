@@ -19,7 +19,7 @@ body {
 }
 
 .navbar {
-    background-color: var(--deep-green) !important;
+    background-color: var(--dark-green) !important;
 }
 
 .navbar-brand, .nav-link {
@@ -28,14 +28,14 @@ body {
 
 .hero-section {
     padding: 100px 0;
-    background: linear-gradient(135deg, var(--deep-green) 0%, var(--dark-green) 100%);
+    background: linear-gradient(135deg, var(--dark-green) 0%, var(--mid-green) 100%);
     color: var(--white);
-    border-bottom: 5px solid var(--mid-green);
+    border-bottom: 5px solid var(--light-green);
 }
 
 .feature-card {
     background-color: var(--white);
-    border: 1px solid var(--light-green);
+    border: 2px solid var(--light-green);
     border-radius: 15px;
     padding: 30px;
     transition: transform 0.3s ease;
@@ -44,25 +44,26 @@ body {
 
 .feature-card:hover {
     transform: translateY(-10px);
-    border-color: var(--dark-green);
+    border-color: var(--mid-green);
+    background-color: var(--light-green);
 }
 
 .btn-primary {
-    background-color: var(--deep-green);
-    border-color: var(--deep-green);
-}
-
-.btn-primary:hover {
     background-color: var(--dark-green);
     border-color: var(--dark-green);
 }
 
+.btn-primary:hover {
+    background-color: var(--mid-green);
+    border-color: var(--mid-green);
+}
+
 .text-green {
-    color: var(--deep-green);
+    color: var(--dark-green);
 }
 
 .tech-stack {
-    background-color: var(--beige);
+    background-color: var(--light-green);
     padding: 60px 0;
 }
 
