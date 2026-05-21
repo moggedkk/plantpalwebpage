@@ -62,6 +62,15 @@ body {
     color: var(--dark-green);
 }
 
+.text-light-green {
+    color: var(--light-green);
+}
+
+.text-light-green:hover {
+    color: var(--white);
+    text-decoration: underline !important;
+}
+
 .tech-stack {
     background-color: var(--light-green);
     padding: 60px 0;
@@ -80,6 +89,21 @@ footer {
 .hero-frog {
     max-height: 350px;
     width: auto;
+}
+
+.contact-card {
+    transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    border-color: var(--dark-green) !important;
+}
+
+.contact-email:hover {
+    color: var(--dark-brown) !important;
+    text-decoration: underline !important;
 }
 
 @media (max-width: 768px) {
