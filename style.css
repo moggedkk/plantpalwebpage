@@ -76,3 +76,14 @@ footer {
 .logo-img {
     max-height: 50px;
 }
+
+.hero-frog {
+    max-height: 350px;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .hero-frog {
+        max-height: 180px;
+    }
+}
